@@ -908,7 +908,7 @@ const mapping = {
 };
 
 app.get('/test', (req, res) => {
-    resp.send('Hello, it works!');
+    res.send('Hello, it works!');
 });
 
 app.get('/*', (req, res) => {
